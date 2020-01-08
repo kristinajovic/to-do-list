@@ -1,0 +1,29 @@
+.header {
+    background-color: #5470ac;
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+  }
+  ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    list-style-type: none;
+    background: rgb(178, 181, 194);
+    font-size: 18px;
+    transition: 0.2s;
+
+  }
+  ul li:nth-child(odd) {
+    background: #dfdfdf;
+  }
+
+  input {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    width: 40%;
+    padding: 10px;
+    float: center;
+    font-size: 16px;
+  }
